@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './angularmaterial/material.module';
 
 import { IssuesComponent } from './components/issues/issues.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { IssuesComponent } from './components/issues/issues.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
