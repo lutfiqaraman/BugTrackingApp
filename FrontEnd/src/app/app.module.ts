@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import { MaterialModule } from './angularmaterial/material.module';
+
 import { IssuesComponent } from './components/issues/issues.component';
 
 @NgModule({
@@ -12,7 +15,8 @@ import { IssuesComponent } from './components/issues/issues.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
