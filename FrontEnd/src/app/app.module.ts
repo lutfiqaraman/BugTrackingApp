@@ -12,6 +12,8 @@ import { IssueComponent } from './components/issues/issue/issue.component';
 import { IssueslistComponent } from './components/issues/issueslist/issueslist.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeComponent } from './components/home/home.component';
     IssueComponent,
     IssueslistComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
